@@ -1,0 +1,267 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+
+/* GLOBAL */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Inter', sans-serif;
+
+}
+
+
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+
+body {
+
+  background: #020617;
+
+  color: white;
+
+  overflow-x: hidden;
+
+  font-size: 17px;
+
+}
+
+
+
+/* HEADINGS */
+
+h1 {
+
+  font-size: 52px !important;
+
+  font-weight: 800 !important;
+
+}
+
+
+
+h2 {
+
+  font-size: 38px !important;
+
+  font-weight: 700 !important;
+
+}
+
+
+
+h3 {
+
+  font-size: 30px !important;
+
+  font-weight: 700 !important;
+
+}
+
+
+
+h4 {
+
+  font-size: 24px !important;
+
+  font-weight: 600 !important;
+
+}
+
+
+
+h5 {
+
+  font-size: 20px !important;
+
+  font-weight: 600 !important;
+
+}
+
+
+
+h6 {
+
+  font-size: 17px !important;
+
+  font-weight: 600 !important;
+
+}
+
+
+
+/* PARAGRAPH */
+
+p {
+
+  font-size: 17px !important;
+
+  line-height: 1.7;
+
+}
+
+
+
+/* BUTTONS */
+
+button,
+
+.btn {
+
+  font-size: 17px !important;
+
+  font-weight: 600 !important;
+
+  padding: 12px 20px !important;
+
+  border-radius: 14px !important;
+
+}
+
+
+
+/* INPUTS */
+
+input,
+
+select,
+
+textarea,
+
+.form-control {
+
+  font-size: 17px !important;
+
+  padding: 14px !important;
+
+  border-radius: 14px !important;
+
+}
+
+
+
+/* TABLE */
+
+table {
+
+  font-size: 17px !important;
+
+}
+
+
+
+table th {
+
+  font-size: 18px !important;
+
+  font-weight: 700 !important;
+
+  padding: 18px !important;
+
+}
+
+
+
+table td {
+
+  font-size: 16px !important;
+
+  padding: 18px !important;
+
+}
+
+
+
+/* CARDS */
+
+.card {
+
+  border-radius: 24px !important;
+
+}
+
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+
+  width: 10px;
+
+}
+
+
+
+::-webkit-scrollbar-track {
+
+  background: #0f172a;
+
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+  background: #00ffd5;
+
+  border-radius: 10px;
+
+}
+
+
+
+/* HOVER EFFECTS */
+
+.card:hover {
+
+  transform: translateY(-2px);
+
+  transition: 0.3s ease;
+
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+
+    font-size: 38px !important;
+
+  }
+
+  h2 {
+
+    font-size: 30px !important;
+
+  }
+
+  h3 {
+
+    font-size: 24px !important;
+
+  }
+
+  body {
+
+    font-size: 15px;
+
+  }
+
+}

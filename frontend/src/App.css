@@ -1,0 +1,66 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.table {
+  color: white;
+}
+
+.table th {
+  color: #00ffcc;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+input,
+select {
+  background-color: #2a2a2a !important;
+  color: white !important;
+  border: 1px solid #444 !important;
+}
+
+input::placeholder {
+  color: #bbb !important;
+}
+
+select option {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #00b894;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #00a383;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border: none;
+}
+
+h2 {
+  color: #00ffcc;
+}
+
+h4 {
+  color: white;
+}
+
+.container {
+  margin-top: 30px;
+}
